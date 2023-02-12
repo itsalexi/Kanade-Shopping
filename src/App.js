@@ -87,7 +87,7 @@ function App() {
                         <div className="collection-information">
                             <div className="collection-text">
                                 <h2 className="collection-title winter">
-                                    Seasonal
+                                    Winter
                                 </h2>
                                 <h1 className="collection-subtitle">
                                     Collection
