@@ -1,5 +1,10 @@
 import './App.css';
 
+import model1 from './assets/model1.png';
+import model2 from './assets/model2.png';
+import model3 from './assets/model3.png';
+import model4 from './assets/model4.png';
+
 function App() {
     return (
         <div className="container">
@@ -13,53 +18,84 @@ function App() {
                     <h1>CART</h1>
                 </div>
                 <div className="main-content">
-                    <div className="main-banner">
+                    <div className="collection unique">
+                        <div className="collection-information">
+                            <div className="collection-text">
+                                <h2 className="collection-title unique">
+                                    Unique
+                                </h2>
+                                <h1 className="collection-subtitle unique">
+                                    Collection
+                                </h1>
+                            </div>
+                            <button className="collection-shop-button">
+                                SHOP NOW
+                            </button>
+                        </div>
                         <img
-                            src="https://marketplace.canva.com/EAE6uxzge6c/1/0/1600w/canva-yellow-and-white-minimalist-big-sale-banner-BjBIq-T_6j4.jpg"
-                            alt="banner"
-                            className="banner-image"
+                            src={model1}
+                            className="collection-model"
+                            alt="model1"
                         />
                     </div>
-                    <div className="items">
-                        <div className="item-container">
-                            <img
-                                src="https://i.pinimg.com/564x/a9/d6/fb/a9d6fb9d6fd437fa6c64a9432317f525.jpg"
-                                alt="item1"
-                                className="item-image"
-                            />
-                            <h2>Category 1</h2>
+                    <div className="collection seasonal">
+                        <img
+                            src={model2}
+                            className="collection-model"
+                            alt="model2"
+                        />
+                        <div className="collection-information">
+                            <div className="collection-text">
+                                <h2 className="collection-title seasonal">
+                                    Seasonal
+                                </h2>
+                                <h1 className="collection-subtitle seasonal">
+                                    Collection
+                                </h1>
+                            </div>
+                            <button className="collection-shop-button">
+                                SHOP NOW
+                            </button>
                         </div>
-                        <div className="item-container">
-                            <img
-                                src="https://i.pinimg.com/736x/ee/a9/54/eea9546665efa461ac1a2ed8952a7ef3.jpg"
-                                alt="item1"
-                                className="item-image"
-                            />
-                            <h2>Category 2</h2>
+                    </div>
+                    <div className="collection casual">
+                        <div className="collection-information">
+                            <div className="collection-text">
+                                <h2 className="collection-title casual">
+                                    Casual
+                                </h2>
+                                <h1 className="collection-subtitle">
+                                    Collection
+                                </h1>
+                            </div>
+                            <button className="collection-shop-button">
+                                SHOP NOW
+                            </button>
                         </div>
-                        <div className="item-container">
-                            <img
-                                src="https://i.pinimg.com/736x/a7/6e/3e/a76e3e65a7816327a7ee4d069e6e1ffe.jpg"
-                                alt="item1"
-                                className="item-image"
-                            />
-                            <h2>Category 3</h2>
-                        </div>
-                        <div className="item-container">
-                            <img
-                                src="https://i.pinimg.com/736x/77/19/5c/77195c5c84246def1833197bb31dd4a1.jpg"
-                                alt="item1"
-                                className="item-image"
-                            />
-                            <h2>Category 4</h2>
-                        </div>
-                        <div className="item-container">
-                            <img
-                                src="https://i.pinimg.com/564x/ff/53/9d/ff539d088d8601f2659483b6956f8e58.jpg"
-                                alt="item1"
-                                className="item-image"
-                            />
-                            <h2>Category 5</h2>
+                        <img
+                            src={model3}
+                            className="collection-model"
+                            alt="model1"
+                        />
+                    </div>
+                    <div className="collection winter">
+                        <img
+                            src={model4}
+                            className="collection-model"
+                            alt="model1"
+                        />
+                        <div className="collection-information">
+                            <div className="collection-text">
+                                <h2 className="collection-title winter">
+                                    Seasonal
+                                </h2>
+                                <h1 className="collection-subtitle">
+                                    Collection
+                                </h1>
+                            </div>
+                            <button className="collection-shop-button">
+                                SHOP NOW
+                            </button>
                         </div>
                     </div>
                 </div>
