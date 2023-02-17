@@ -5,17 +5,19 @@ import model2 from './assets/model2.png';
 import model3 from './assets/model3.png';
 import model4 from './assets/model4.png';
 
+import Snowfall from 'react-snowfall';
+
 function App() {
     return (
         <div className="container">
+            <Snowfall color="lightpink" />
             <div className="app">
                 <div className="nav">
-                    <h1>HOME</h1>
+                    <h3>HOME</h3>
                     <div className="title-container">
-                        <h1 className="title">KANADE'S</h1>
-                        <h1 className="subtitle">STORE</h1>
+                        <h1 className="title">Kanade's</h1>
                     </div>
-                    <h1>CART</h1>
+                    <h3>CART</h3>
                 </div>
                 <div className="main-content">
                     <div className="collection unique">
