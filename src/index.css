@@ -32,8 +32,9 @@ button {
 
 .collection-shop-button:hover,
 .collection-shop-button:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em rgba(0, 0, 0, 0.35);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 12px 15px;
     transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 .title-container {
