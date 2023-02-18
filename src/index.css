@@ -30,6 +30,15 @@ button {
     transition: 0.25s;
 }
 
+.nav-item {
+    transition: 0.25s;
+}
+.nav-item:hover,
+.nav-item:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .collection-shop-button:hover,
 .collection-shop-button:focus {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 12px 15px;

@@ -19,11 +19,11 @@ function App() {
             <div className="container">
                 <div className="app">
                     <div className="nav">
-                        <h3>HOME</h3>
+                        <h3 className="nav-item">HOME</h3>
                         <div className="title-container">
                             <h1 className="title">Kanade's</h1>
                         </div>
-                        <h3>CART</h3>
+                        <h3 className="nav-item">CART</h3>
                     </div>
                     <div className="main-content">
                         <div className="collection unique">
